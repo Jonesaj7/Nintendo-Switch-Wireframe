@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+nav {
+  background: #e4001b;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+/* FAQ */
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+}
+
+.faq-item p {
+  margin: 0.4rem 0 0;
+}
