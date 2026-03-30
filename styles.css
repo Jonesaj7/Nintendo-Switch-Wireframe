@@ -4,37 +4,40 @@ body {
     background-color: #f4f4f4;
 }
 
+/* HEADER */
 header {
-    background-color: #e60012;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-header {
-    background: url("images\NintendoSwitch header.jpg") no-repeat center center/cover;
+    background: url("images/NintendoSwitch header.jpg") center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 80px 20px;
 }
 
+/* NAVIGATION */
+nav {
+    width: 100%;
+}
+
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 12px 0;
+    width: 100%;
 }
 
 nav li {
-    margin: 0 15px;
+    padding : 10px 15px;
+    margin: 0 20px;
 }
 
 nav a {
-    color: white;
+    color: #e60012;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* MAIN CONTENT */
 main {
     padding: 20px;
 }
@@ -43,6 +46,20 @@ section {
     margin-bottom: 40px;
 }
 
+/* HOME IMAGE */
+.home-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-image img {
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* CARDS */
 .card {
     background: white;
     padding: 15px;
@@ -51,8 +68,25 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 15px;
-    background: #ddd;
+    background: #e60012;
+    color: white;
+}
+
+
+/* OPTIONAL HOVER EFFECT */
+nav a:hover {
+    color: black;
+}
+
+.button:hover {
+    background-color: #ff4554;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    padding : 9px 14px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
